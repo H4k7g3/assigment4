@@ -1,0 +1,190 @@
+*{
+    color:white;
+    font-size: 18px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+body {
+    background: white;
+}
+
+.slider{
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size:16px;
+    color:white;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 10%;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding:0px 10px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a hover{
+    color:maroon;
+}
+
+button{
+    padding:9px 10px;
+    background-color: black;
+    border:3px;
+    border-radius:50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color:green;
+}
+
+.logoFigure{
+    display: block;
+    text-align: left;
+    margin-right: 100px;
+}
+
+figure {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.fig{
+    margin-top: 65px;
+}
+
+.fig2{
+    margin-top: 30px;
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align:center; /* Выравнивание по центру */
+}
+
+table{
+    background-color: black;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: aqua;
+}
+
+th{
+    border: 3px solid white;
+    color:white;
+}
+
+tr{
+    border: 3px solid white;
+    text-align: center;
+    font-weight: bold;
+}
+
+td{
+    border: 3px solid white;
+    color:white;
+}
+
+hr {
+    margin: 0px 0;
+    padding: 3px;
+    background-color:white;
+    border: 3px solid maroon;
+}
+
+.style1{
+    margin-top: 100px;
+}
+
+.phistory{
+    margin-top: 50px;
+}
+
+.trophiesList{
+    margin-bottom: 40px;
+}
+
+.News {
+    margin: 10px 0;
+    padding: 5px;
+    border: 3px solid #333;
+}
+
+.goldstyle{
+    text-align: left;
+    color:gold;
+}
+
+.goldstyle2{
+    text-align: center;
+    color:gold;
+}
+
+.borderImage{
+    border:5px solid gold;
+    border-radius: 25px;
+}
+
+.mainClub{
+    background-color: orangered;
+}
+
+.sponsorsStyle{
+    margin-bottom: 20%;
+}
+
+.pTitle{
+    font-size: 45px;
+    float: left;
+}
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 8px;
+    width: 50%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+    color: maroon;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    font-size: 5px;
+    padding: 0 5px;
+    background-color: black;
+    display: none;
+    overflow: hidden;
+}
+
+.facts{
+    font-size: 15px;
+    font-family: Arial;
+}
+
